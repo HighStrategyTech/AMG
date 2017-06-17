@@ -1,0 +1,13 @@
+.container-fluid{
+    background: linear-gradient(rgba(65, 59, 222, 0.36), rgba(208, 200, 240, 0.92)), url(http://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif) no-repeat center center fixed; 
+    background-size: cover;
+    background-position: center;
+    
+    height: 100vh;
+    background-attachment: fixed;
+    padding: 100px;
+}
+
+.main-text{
+    margin-top: 35%;
+}
