@@ -1,13 +1,31 @@
+.main-text{
+    color: #81D8D1;
+    font-family: serif;
+}
 .container-fluid{
-    background: linear-gradient(rgba(65, 59, 222, 0.36), rgba(208, 200, 240, 0.92)), url(http://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif) no-repeat center center fixed; 
+    background: black; 
     background-size: cover;
     background-position: center;
     
-    height: 100vh;
+    height: 100%;
     background-attachment: fixed;
     padding: 100px;
 }
 
 .main-text{
-    margin-top: 35%;
+    margin-bottom: 0%;
+}
+
+.main{
+    top: 0;
+    height: 350px;
+    background-color: #81D8D1;
+    border: 20px black;
+}
+
+.footer{
+    background-color: white;
+    height: 40px;
+    padding-left: 5%;
+    padding-top: .5%;
 }
