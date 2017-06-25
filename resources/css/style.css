@@ -1,3 +1,17 @@
+h2{
+    color: #888;
+}
+
+p{
+    color: #888;
+}
+/*------------------------------------------------------------------------*/
+section{
+    padding: 30px;
+    background-color: aqua;
+}
+
+
 .container-fluid{
     background: linear-gradient(rgba(65, 59, 222, 0.36), rgba(208, 200, 240, 0.92)), url(http://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif) no-repeat center center fixed; 
     background-size: cover;
@@ -5,9 +19,82 @@
     
     height: 100vh;
     background-attachment: fixed;
-    padding: 100px;
+    padding: 100px;    
 }
 
 .main-text{
     margin-top: 35%;
 }
+
+/*Section Bio--------------------------------------------------------------------------------------*/
+
+#section-bio{
+    background-color: #171616;
+}
+
+.atlanta-img{
+    width: 75%;
+    margin-left: 15%;
+    margin-right: 25%;
+}
+
+.atlanta-box{
+    width: 75%%;
+    
+}
+
+
+
+/*Section Form--------------------------------------------------------------------------------------*/
+
+.content-header{
+  font-family: 'Oleo Script', cursive;
+  color:#fcc500;
+  font-size: 45px;
+}
+
+#section-contact{
+  font-family: 'Teko', sans-serif;
+  padding-top: 60px;
+  width: 100%;
+  width: 100vw;
+  height: 550px;
+  background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : #fff;
+}
+
+.section-content{
+    text-align: center;
+}
+
+.submit{
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.form-line{
+    border-right: 1px solid #B29999;
+}
+
+
+.form-control{
+    font-size: 1.3em;
+    color: #080808;
+}
+
+label{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+}
+
+textarea.form-control{
+    120px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
