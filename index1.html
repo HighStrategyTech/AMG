@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -50,12 +50,12 @@
 
 <body>
    
-    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+    <nav class="navbar navbar-toggleable-md fixed-top navbar-fixed-top navbar-inverse bg-inverse">
        
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Navbar</a>
+        <a class="navbar-brand" href="index.html">AMG</a>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
@@ -63,12 +63,15 @@
                     <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Page</a>
+                    <a class="nav-link" href="#">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Page</a>
+                    <a class="nav-link" href="#">Artist</a>
                 </li>
-                <!-- Dropdown - Delete from this comment to the next if you don't want it -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+<!--                 Dropdown - Delete from this comment to the next if you don't want it -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -83,7 +86,7 @@
         </div>
     
     </nav>
-
+   
 	<div class="container-fluid">
        <div class="main-text">
            <h1>There's a beauty in better<br></h1>
@@ -91,8 +94,71 @@
         
 	</div>
 	
-	<section class="main">
-	    
+	<section id="section-bio">
+
+        <div class="container">
+            <div class="row section-header">
+                <h2>About Us</h2>
+            </div>
+            <div class="row">
+                <figure class="col-md-12 atlanta-box"><img class="atlanta-img" src="resources/img/atlanta.jpeg"></figure>
+            </div>
+            <div class="row"> 
+
+                <div class="col-md-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum ut erat vitae imperdiet. Morbi nec congue elit, nec dignissim est. Donec dolor nunc, placerat id condimentum vitae, posuere in tortor. Praesent sed mattis eros. Quisque fermentum convallis metus id laoreet. Fusce nec placerat ante, vel aliquam lorem. Morbi consequat orci quis fermentum dictum. Morbi quis massa volutpat risus pellentesque mattis vel ut nulla. Phasellus vel nibh et nisi egestas hendrerit at quis felis. Aenean efficitur a orci quis fringilla.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        Aenean at semper purus, volutpat tincidunt metus. In non elit massa. Mauris cursus egestas lacus, non hendrerit dolor consectetur interdum. Duis ex diam, ornare pulvinar sodales nec, egestas id sapien. Fusce fringilla lobortis feugiat. Maecenas sed justo ut velit vulputate tempor eu in enim. Suspendisse quis bibendum ipsum. Sed non porta leo.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        Nullam justo quam, sodales eu cursus id, bibendum quis leo. In varius erat pharetra turpis tristique elementum. Curabitur efficitur tempor feugiat. Donec viverra enim sed ligula porttitor, ut vehicula libero pellentesque. In faucibus orci turpis, nec semper ligula vehicula sed. Sed pretium feugiat sapien, nec facilisis lectus egestas a. Mauris quis enim ligula. Vivamus et neque finibus odio aliquam congue. Nulla mollis accumsan turpis vel finibus. Nam quis lobortis tellus. Nulla fermentum metus at lacus sollicitudin, sit amet bibendum orci bibendum. Donec luctus quam quis ligula lacinia, et auctor odio rhoncus. Quisque non efficitur enim.
+                    </p>
+                </div> 
+            </div>
+        </div>
+    	    	    
+	</section>
+	
+	<section id="section-contact">
+        <div class="section-content">
+				<h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with us</span></h1>
+				<h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h3>
+        </div>
+	    <div class="container">
+	        <form>
+                <div class="row">
+                    <div class="col-md-6 form-line">
+                        <div class="form-group">
+                            <label for="inputusername">Your Name</label>
+                            <input type="text" class="form-control" id="" placeholder="Enter Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputuseremail"> Email Address</label>
+                            <input type="email" class="form-control" id="inputuseremail" placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <label for="telephone">Phone Number</label>
+                            <input type="tel" class="form-control" id="telephone" placeholder="###-###-####">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                       <div class="form-group">
+                           <label for="description">Message</label>
+                           <textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                       </div>
+                       <div>
+                           <button type="button" class="btn btn-default submit">Submit</button>
+                       </div>
+                    </div>
+
+                </div>
+	        </form>
+	    </div>
 	</section>
 
 </body>
