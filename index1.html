@@ -44,6 +44,21 @@
 	<script type="text/javascript" src="">
 	</script>
 
+    <!-- JQuery Scroll Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+    <script>
+    $('.smooth').on('click', function() {
+        $.smoothScroll({
+            scrollElement: $('body'),
+            scrollTarget: '#' + this.id
+        });
+    
+        return false;
+    });
+    </script>
+    <!-- End of Scripts -->
+
     <title>Apollo Management Group</title>
 
 	
@@ -61,25 +76,11 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index1.html">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link smooth" href="index1.html">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Bio</a>
+                    <a class="nav-link" href="#contact-us">Contact Us</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
-                <!-- Dropdown - Delete from this comment to the next if you don't want it - - >
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Separted</a>
-                    </div>
-                </li>-->
             </ul>
         </div>
     
@@ -93,18 +94,18 @@
        </div>
         
 	</div>
-    <div class="transition"><h3>MORE ON AMG...</h3></div>	
+    <div class="transition"><h3> </h3></div>	
     <div class="row">
         <section class="main">
         	<div class="col col-md-7" style="width: 60%">
-               <h2 style="padding-left: 20%; padding-top: 7%; font-size: 40px;">What AMG does...</h2> 
-        	   <p style="padding-left:27%; padding-right: 15%;">Apollo Management Group, LLC is a three tiered talent management firm 
+               <h2 style="padding-left: 20%; padding-top: 7%; font-size: 40px;"> </h2> 
+        	   <p style="padding-left:27%; padding-right: 15%; font-size: 130%;">Apollo Management Group, LLC is a three tiered management firm 
                     focused on maximizing wealth, realizing brands and optimizing 
                     careers for world class athletes and entertainers.</p>
             </div>
             <div class="col col-sm-4" style="float: right; width: 40%; overflow: hidden; padding-top: 4%">
                 <div style="border-left: solid #4E5C5C 2px;">    
-                    <h4>Contact the AMG staff</h4>
+                    <h4 id="contact-us" class="smooth">Contact Us</h4>
                     <hr style="width: 60%; margin-left: 15px;">
                     <form action="/action_page.php" onsubmit="adsfadf()" style="width: 60%; margin: auto;">
                         <div class="form-group">
