@@ -18,13 +18,18 @@
 
 .main{
     top: 0;
-    height: 350px;
+    height: 375px;
     background-color: #81D8D1;
     border: 20px black;
+
+    width: 100%;
+    overflow: hidden;
+    display: inherit;
 }
 
 .footer{
-    background-color: white;
+    background-color: #2A2B2D;
+    color: white;
     height: 40px;
     padding-left: 5%;
     padding-top: .5%;
@@ -48,4 +53,41 @@ h3{
     text-align: center;
     padding: 5px;
     
+}
+h4{
+    margin: 15px;
+}
+
+.pulse {
+  animation: pulse 3s infinite;
+  margin: 0 auto;
+  display: table;
+  margin-top: 50px;
+  animation-direction: alternate;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

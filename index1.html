@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,6 +12,7 @@
     <link href="resources/css/style.css" rel="stylesheet">
 	<style>
         @media (max-width: 62em) {
+            
             .navbar-nav {
                 padding-top: .425rem;
                 padding-left: 0.75rem;
@@ -33,7 +34,7 @@
                 position: relative;
                 float: none;
             }
-        }
+
     </style>
     <!-- External Scripts -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -46,7 +47,7 @@
 
     <!-- JQuery Scroll Script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script type="text/javascript" src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+    <script type="text/javascript" src="resources/js/jquery.smooth-scroll.min.js"></script>
     <script>
     $('.smooth').on('click', function() {
         $.smoothScroll({
@@ -104,7 +105,8 @@
                     careers for world class athletes and entertainers.</p>
             </div>
             <div class="col col-sm-4" style="float: right; width: 40%; overflow: hidden; padding-top: 4%">
-                <div style="border-left: solid #4E5C5C 2px;">    
+                <div style="border-left: solid #4E5C5C 2px;">
+                    <a id="contact-us" class="smooth"></a>    
                     <h4 id="contact-us" class="smooth">Contact Us</h4>
                     <hr style="width: 60%; margin-left: 15px;">
                     <form action="/action_page.php" onsubmit="adsfadf()" style="width: 60%; margin: auto;">
