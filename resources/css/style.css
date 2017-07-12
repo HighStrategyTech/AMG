@@ -1,0 +1,130 @@
+.main-text{
+    color: #81D8D1;
+    font-family: serif;
+}
+.container-fluid{
+    background: black; 
+    background-size: cover;
+    background-position: center;
+    
+    height: 100%;
+    background-attachment: fixed;
+    padding: 100px;
+}
+
+.main-text{
+    margin-bottom: 0%;
+}
+
+.main{
+    top: 0;
+    height: 350px;
+    background-color: #81D8D1;
+    border: 20px black;
+}
+
+.footer{
+    background-color: white;
+    height: 40px;
+    padding-left: 5%;
+    padding-top: .5%;
+}
+
+.transition{
+    opacity: 0.9;
+    height: 45px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(90deg, #81D8D1 , yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, #81D8D1, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, #81D8D1, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, #81D8D1 , #2A2B2D); /* Standard syntax */
+}
+
+h3{
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+
+/*------Media Queries--------------*/
+
+@media only screen and (min-width: 577px) and (max-width: 768px){
+    
+    h2{
+        font-size: 2.8em;
+        text-align: center;
+        max-width: 70%;
+        margin: 30px 15% 20px 15%;
+        
+    }
+     
+    p{
+        text-align: left;
+        font-size: 1.5em;
+        
+    }
+    
+    .section-contact{
+        background-color: #c9d8d7;
+    }
+    
+    .img-container{
+/*
+        width: 100%;
+        padding: 0;
+        overflow: visible;
+        text-align: center;
+*/
+              max-width: 100%;
+              
+              
+        
+    }
+    
+    .img-container img{
+        height: 15em;
+        display: block;
+        margin: auto;
+        width: 250px;
+        
+    }
+    .pulse{
+         opacity: 0.7;
+         max-width: 70%;
+         height: auto;
+    }
+    
+    .hero-text{
+        font-size: 2.8em;
+        text-align: auto;
+        color: #fff;
+/*        margin: 0 15% 0 15%;*/
+    }
+    
+    #about-title{
+        
+        padding-left: 2%;
+        
+    }
+    
+    #contact-header{
+        padding-left: 5%;
+        margin-left: 19%;
+    }
+    
+    label{
+        text-align: center;
+        width: 100%;
+    }
+   
+    .btn{
+        text-align: center;
+        width: 40%;
+        margin: 0 30% 15px 30%;
+    }
+}
