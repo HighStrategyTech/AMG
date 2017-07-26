@@ -1,3 +1,15 @@
+#AMGinfo{
+  width: 60%;
+}
+
+#AMGcontact{
+  float: right; 
+  width: 40%; 
+  overflow: hidden; 
+  padding-top: 7%;
+  }
+
+
 .main-text{
     color: #81D8D1;
     font-family: serif;

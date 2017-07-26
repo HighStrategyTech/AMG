@@ -35,6 +35,21 @@
                 float: none;
             }
 
+            #AMGinfo{
+              width: 100%;
+            }
+
+            #AMGcontact{
+              float: left;
+              width: 1000%; 
+              overflow: hidden; 
+              padding-top: 4%;
+            }
+            
+            .footer{
+                height: 40px;
+                font-size: 85%;
+            }
     </style>
     <!-- External Scripts -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -58,6 +73,7 @@
         return false;
     });
     </script>
+
     <!-- End of Scripts -->
 
     <title>Apollo Management Group</title>
@@ -98,18 +114,19 @@
     <div class="transition"><h3> </h3></div>	
     <div class="row">
         <section class="main">
-        	<div class="col col-md-7" style="width: 60%">
+        	<div class="col-7 col-sm-8" id="AMGinfo">
                <h2 style="padding-left: 20%; padding-top: 7%; font-size: 40px;"> </h2> 
-        	   <p style="padding-left:27%; padding-right: 15%; font-size: 130%;">Apollo Management Group, LLC is a three tiered management firm 
-                    focused on maximizing wealth, realizing brands and optimizing 
-                    careers for world class athletes and entertainers.</p>
+        	   <p style="padding-left:27%; padding-right: 15%; font-size: 130%;">Apollo Management Group, 
+                    LLC is a three tiered management firm focused on maximizing wealth, realizing brands 
+                    and optimizing careers for world class athletes and entertainers.</p>
             </div>
-            <div class="col col-sm-4" style="float: right; width: 40%; overflow: hidden; padding-top: 4%">
+            <div class="col-5 col-sm-4"  id="AMGcontact" >
                 <div style="border-left: solid #4E5C5C 2px;">
                     <a id="contact-us" class="smooth"></a>    
                     <h4 id="contact-us" class="smooth">Contact Us</h4>
                     <hr style="width: 60%; margin-left: 15px;">
-                    <form action="/action_page.php" onsubmit="adsfadf()" style="width: 60%; margin: auto;">
+                    <!--
+                    <form action="php/action_page.php" onsubmit="index1.html" method="post" style="width: 60%; margin: auto;">
                         <div class="form-group">
                           <label for="email">Name:</label>
                           <input type="text" class="form-control" id="name" placeholder="Apollo MGMT" name="name" style="background-color: #B6BDBD; color: white;">
@@ -120,6 +137,10 @@
                         </div>
                         <button type="submit" class="btn btn-default" style="background-color: #4E5C5C; color: white;">Submit</button>
                       </form>
+                      -->
+                      <div style="padding-left: 20px;">
+                        <p style="color: #4E5C5C;">For any inquiries in AMG <br> &nbsp; please subscribe below.</p>
+                        <button type="submit" onclick="location.href='mailto:info@apollomgmt.com';" class="btn btn-default" style="background-color: #4E5C5C; color: white;">Submit</button>
                     </div>
             </div>
         </section>
